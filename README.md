@@ -15,3 +15,12 @@ This project aims to turn a linux barebones server into a secured web applicatio
 * System packages updated to the latest versions.
 * SSH is hosted on non-default port (2200).
 * A web server is listening on port `80` serving the [catalog](https://github.com/M-Dahab/fsnd_catalog) application using `sqlite` database.
+
+## Packages and Dependencies used
+* `python3` interpreter.
+* `apache2` server.
+* `sqlalchemy` python ORM package.
+
+## Resources
+* [How to use Flask with WSGI](http://flask.pocoo.org/docs/1.0/deploying/mod_wsgi/).
+* [Apache2 mod_wsgi with python3](http://terokarvinen.com/2017/write-python-3-web-apps-with-apache2-mod_wsgi-install-ubuntu-16-04-xenial-every-tiny-part-tested-separately).
